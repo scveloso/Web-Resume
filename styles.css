@@ -56,7 +56,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-    background-color: #BD5D38;
+    background-color: #4285F4;
 }
 
 .dev-icons {
@@ -64,7 +64,19 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-    color: #BD5D38;
+    color: #4285F4;
+}
+
+.text-primary {
+    color: #BC4639;
+}
+
+.text-secondary {
+    color: #4285F4;
+}
+
+.subheading a {
+    color: #4285F4;
 }
 
 .navbar {
@@ -72,6 +84,7 @@ p.lead {
     display: table;
     height: 100vh;
     width: 27rem;
+    background-color: #5C2018;
 }
 
 .navbar-img {

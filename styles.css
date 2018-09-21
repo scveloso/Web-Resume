@@ -26,9 +26,18 @@ h3 {
     font-size: 3rem;
 }
 
+h4 {
+    font-size: 2.25rem;
+}
+
 p.lead {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.contacts {
+    margin-bottom: 4rem;
 }
 
 .subheading {
@@ -38,16 +47,20 @@ p.lead {
     font-size: 1.5rem;
 }
 
+.subheading-company {
+    font-size: 2rem;
+}
+
 .social-icons a {
     display: inline-block;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 5.5rem;
+    width: 5.5rem;
     background-color: #495057;
     color: #fff !important;
     border-radius: 100%;
     text-align: center;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
+    font-size: 2.5rem;
+    line-height: 5.5rem;
     margin-right: 1rem;
 }
 
@@ -56,7 +69,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-    background-color: #4285F4;
+    background-color: #4056A1;
 }
 
 .dev-icons {
@@ -64,19 +77,20 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-    color: #4285F4;
+    color: #4056A1;
 }
 
 .text-primary {
-    color: #BC4639;
+    color: #4056A1;
 }
 
 .text-secondary {
-    color: #4285F4;
+    font-size: 1.75rem;
+    color: #4056A1;
 }
 
 .subheading a {
-    color: #4285F4;
+    color: #4056A1;
 }
 
 .navbar {
@@ -118,6 +132,7 @@ li.nav-item {
 .nav-link{
     font-weight: 800;
     letter-spacing: 0.1rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     display: block;
 }
@@ -137,8 +152,8 @@ section#about {
 }
 
 section#experience {
-  padding-top: 13rem !important;
-  padding-bottom: 13rem !important;
+  padding-top: 10rem !important;
+  padding-bottom: 10rem !important;
   padding-left: 5rem;
 }
 
@@ -155,7 +170,7 @@ section#skills {
 }
 
 section#interests {
-  padding-top: 30rem !important;
+  padding-top: 25.5rem !important;
   padding-bottom: 30rem !important;
   padding-left: 5rem;
 }
